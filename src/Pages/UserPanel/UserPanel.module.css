@@ -1,0 +1,197 @@
+/* ------------------------------------------------------------------------------ */
+
+div{
+    font-family: "Exo 2", sans-serif;
+}
+
+.block_1 {
+    border: 1px dashed rgb(113, 113, 113);
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #faffc8;
+}
+.block__Cash_Btns_Location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.disp_panel_profile {
+    width: 175px;
+}
+.disp_panel_profile__icon img {
+    width: 170px;
+}
+.disp_panel_profile__id {
+    text-align: center;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+.disp_panel_profile__btnEnd
+{
+    text-align: center;
+}
+
+.block__Cash_Btns_Location__1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+.block__cash {
+    font-size: 28px;
+}
+
+.block__Cash_Btns_Location__2 {
+    min-height: 350px;
+    min-width: 600px;
+    background-color: black;
+}
+.block__Location_MapVis iframe{
+    height: 350px;
+    width: 600px;
+    display: block;
+}
+
+.block__Location_MapHide iframe{
+    height: 350px;
+    width: 600px;
+    display: none;
+}
+
+.block_2 {
+    display: flex;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #faffc8;
+    position: relative;
+}
+.text_info{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 30px;
+}
+.block__data_number_btns {
+    width: 45%;
+    padding-top: 110px;
+}
+.inWay {
+    font-size: 24px;
+    color: #7E7E7E;
+    margin: 10px 10px 10px 0;
+}
+.inWay::after{
+    content: "5,9 С/МИН";
+    margin-left: 107px;
+    color: black;
+    font-weight: 600;
+}
+.expectation {
+    font-size: 24px;
+    color: #7E7E7E;
+    margin: 10px 10px 10px 0;
+}
+.expectation::after{
+    content: "0,0 С/МИН";
+    margin-left: 60px;
+    color: black;
+    font-weight: 600;
+}
+.number img{
+    width: 320px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.btnCar{
+    display: block;
+    width: 260px;
+    margin-top: 15px;
+    margin-left: calc(50% - 130px);
+}
+
+.block__img_btns {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block__img_btns__img {
+    width: 550px;
+}
+
+
+/* <!-- ---------------------------------Report------------------------------------- --> */
+.block__chat {
+    height: 500px;
+    margin: 10px 20px 40px;
+}
+
+.block__chat strong{
+    color: rgb(108, 211, 68);
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.block__chat__body {
+    background-color: #646286;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+.block__chat__body__message {
+    background-color: #202c33;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+}
+
+#message1{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    display: block;
+}
+
+#message2
+{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    display: block;
+}
+
+.block__chat__response_admin {
+    background-color: #202c33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.block__chat__responce_Input
+{
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    background-color: #2a3942;
+    padding-left: 15px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.response_Btn {
+    height: 45px;
+}
+/* <!-- ---------------------------------Report------------------------------------- --> */

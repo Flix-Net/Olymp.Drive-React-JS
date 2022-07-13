@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Exo:wght@500;600&display=swap');
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu__inner .link_menu{
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+
+/* <--------------------------------------Panel Buttons--------------------------------------------> */
+
+.disp_panel {
+    border-left: 2px dashed rgb(210, 210, 210);
+    border-bottom: 2px dashed rgb(210, 210, 210);
+    border-radius: 0 0 0 30px;
+    display: flex;
+    padding: 10px 0 10px 10px;
+    justify-content: space-between;
+}
+.disp_panel_profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+}
+.disp_panel_profile__icon img {
+    width: 140px;
+}
+.disp_panel_profile__id {
+    text-align: center;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+
+.btnEndSession
+{
+    margin: 10px auto;
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+.disp_panel_buttons {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkDoc__indicator
+{
+    background-color: yellow;
+    margin-top: 25px;
+    border-radius: 100%;
+    border: 1px solid grey;
+    height: 35px;
+    width: 35px;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Exo 2", sans-serif;
+}
+
+.disp_panel_buttons__group_One
+{
+    min-width: 250px;
+    border: 1px dashed rgb(176, 176, 176);
+    padding-left: 10px;
+}
+
+.disp_panel_buttons__group_Two{
+    border: 1px dashed rgb(176, 176, 176);
+    border-radius: 0 20px 0 0;
+    margin-left: 10px;
+}
+
+.group__ServicePersonnelAndinputIDCar{
+    width: 195px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.checkDoc
+{
+    background-color: rgb(0, 179, 255);
+}
+
+.btnServicePersonnel{
+    background-color: orange;
+}
+
+
+
+/* <--------------------------------------Panel Buttons--------------------------------------------> */
+
+
+
+/* <--------------------------------------Modal Check Docs--------------------------------------------> */
+.block_Photo_Docs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo_Doc{
+    display:inline-block;
+    margin: 10px 80px;
+}
+
+.photo_Doc img{
+    width: 400px;
+    height: 230px;
+}
+
+.block_area textarea{
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.groupAreaAndBtns{
+    margin: 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+/* <--------------------------------------Modal Check Docs--------------------------------------------> */
+
+
+/* <--------------------------------------Modal Location--------------------------------------------> */
+.blockMapInPopap{
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 0;
+    background-color: grey;
+    border-radius: 20px 0 20px 0;
+    height: 400px;
+}
+.blockMapInPopap iframe{
+    width: 900px;
+    height: 375px;
+}
+/* <--------------------------------------Modal Location--------------------------------------------> */
+
+
+
+/* <--------------------------------------Modal Report--------------------------------------------> */
+.block__chat {
+    height: 500px;
+    margin: 0 20px 20px;
+}
+
+.block__chat strong{
+    color: rgb(211, 68, 68);
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.block__chat__body {
+    background-color: #646286;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+.block__chat__body__message {
+    background-color: #202c33;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    min-width: 100px;
+    text-align: center;
+
+}
+
+#message1{
+    position: absolute;
+    left: 38px;
+}
+
+#message2
+{
+    position: absolute;
+    bottom: 110px;
+    right: 40px;
+    display: block;
+}
+
+.block__chat__response_admin {
+    background-color: #202c33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.block__chat__responce_Input
+{
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    background-color: #2a3942;
+    padding-left: 15px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.response_Btn {
+    height: 45px;
+}
+
+
+/* <--------------------------------------Modal Report--------------------------------------------> */
+
+
+
+/* <--------------------------------------Modal Report--------------------------------------------> */
+
+.tableUsers {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 100%;
+    border: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #6dfd13;
+    font-size: 15px;
+    background: #fff!important;
+}
+.tableUsers th {
+    font-weight: bold;
+    padding: 7px;
+    background: linear-gradient(180deg, #8CFF45 0%, rgba(221, 248, 20, 0.43) 78.97%, rgba(255, 245, 0, 0) 100%);
+
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #6dfd13;
+}
+.tableUsers td {
+    padding: 7px;
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+}
+.tableUsers tbody tr:nth-child(even){
+    background: #ccfeb9;
+}
+
+.tableUsers tbody td:first-child::before
+{
+    content: "";
+    padding-left: 20px;
+}
+
+/* <--------------------------------------Modal Report--------------------------------------------> */

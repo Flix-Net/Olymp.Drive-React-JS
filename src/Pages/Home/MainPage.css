@@ -1,0 +1,311 @@
+/* -----------------------------------Promo------------------------------------------- */
+
+.Block__Promo {
+    z-index: 5;
+}
+
+.block
+{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    padding-top: 0;
+}
+
+
+.Promo__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.Promo_button a
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 88px;
+    margin-top: 50px;
+    background: #1FFFBC;
+    border-radius: 12px;
+    cursor: pointer;
+    color: black;
+    transition: all 0.5s ease;
+    box-shadow: 5px 5px 26px -5px #1FFFBC;
+}
+.Promo_button a:hover
+{
+    background: #7ddfff;
+    box-shadow: 10px 10px 15px -5px rgba(0, 142, 251, 0.55);
+
+}
+
+.Promo_button_text1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+.Promo_button_text2 {
+    margin: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #848484;
+}
+.Phone__img img{
+    height: 500px;
+}
+
+.btn_link{
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 40px 10px 0;
+    transition: .3s;
+}
+
+.btn_link:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.block_btn_link{
+    position: absolute;
+    top: 200px;
+}
+
+/* -----------------------------------Promo------------------------------------------- */
+
+
+/* -----------------------------------MAP------------------------------------------- */
+
+.Map {
+    background: linear-gradient(180deg, #EAFFCF 0%, rgba(245, 245, 245, 0) 100%);
+    margin-top: 50px;
+}
+
+.block_map
+{
+    height: 730px;
+    margin-top: 0;
+}
+.image_location img {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:820px;
+    left: 50%;
+}
+.map_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 110px;
+}
+.map_title::selection{
+    background-color: hotpink;
+}
+.map_desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 30px;
+}
+.map_window  {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 1260px;
+    left: 50%;
+    border: 1px solid rgb(171, 171, 171);
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+.map_window iframe {
+
+    display: inline-block;
+    border-radius: 20px;
+    width: 900px;
+    height: 480px;
+}
+
+/* -----------------------------------MAP------------------------------------------- */
+
+
+
+/* -----------------------------------Block Car------------------------------------------- */
+.block_cars {
+    background: radial-gradient(128.55% 678.47% at -16.68% -17.5%, #93FF50 13.33%, #57BFFA 90.42%);
+    border-radius: 50px 50px 0 0;
+    height: auto;
+    padding-bottom: 15px;
+    margin: 50px auto 0;
+}
+
+.section__cars__title {
+    font-size: 36px;
+    margin-top: 70px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.section__cars__everyday {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(0, 83, 244);
+    margin-top: 25px;
+}
+
+.section__cars__years21 {
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 17px;
+    color: #848484;
+    font-weight: 500;
+}
+.img_car {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 1620px;
+    left: 50%;
+    height: 50px;
+    width: auto;
+}
+
+.section__cars {
+    display: flex;
+    margin-top: 10px;
+    justify-content: start;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+/* -----------------------------------Block Car------------------------------------------- */
+
+/* <!-- ----------------------------------Download App------------------------------------- --> */
+
+.block_download__MainTitle
+{
+    font-size: 36px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.block_download {
+    border: 2px solid rgb(184, 184, 184);
+    width: 900px;
+    margin: 30px auto 100px;
+    border-radius: 20px;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.block_download__block1 {
+    display: flex;
+}
+.block_download__block1__img img {
+    width: 450px;
+    height: auto;
+}
+.block_download__block1__titleOrDesc {
+}
+.block_download__block1__title {
+    font-size: 32px;
+    margin: 50px 0;
+}
+
+.block_download__block1__desc {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.block_download__block2 {
+    display: flex;
+}
+.block_download__block2__requirements {
+    width: 450px;
+    margin: 0 30px;
+}
+.block_download__block2__requirements__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+.block_download__block2__requirements__desc li {
+    list-style-type:circle;
+    margin-left: 30px;
+}
+.block_download__block2__desc {
+    width: 450px;
+    margin: 0 30px;
+}
+.block_download__block2__description__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+
+.block_download_buttons__title {
+    text-align: center;
+    font-size: 24px;
+    margin: 35px auto;
+}
+.block_download_buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_download_buttons_ios
+{
+    width: 285px;
+    height: 84px;
+    display: inline-block;
+    background-image: url("https://carsharing.s3.yandex.net/new-b2c-site/app_store_download_icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.block_download_buttons_and
+{
+    width: 285px;
+    height: 84px;
+    display: inline-block;
+    background-image: url("https://carsharing.s3.yandex.net/new-b2c-site/app_store_download_icon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.block_download_buttons_and:hover
+{
+    border: 1px solid greenyellow;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+.block_download_buttons_ios:hover
+{
+    border: 1px solid greenyellow;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+
+/* <!-- ----------------------------------Download App------------------------------------- --> */
+

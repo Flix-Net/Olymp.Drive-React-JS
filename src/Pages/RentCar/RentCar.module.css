@@ -1,0 +1,165 @@
+.back_toRent_car{
+    font-size: 18px;
+    cursor: pointer;
+    background: url(./../../Assets/IMG/arrow_back.png) left no-repeat;
+    background-size: 25px;
+    display: inline-block;
+    padding-left: 30px;
+    margin: 20px auto;
+    color: black;
+
+}
+.title_rent_car h1
+{
+    font-size: 48px;
+}
+
+.image_rent_auto img{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+
+
+
+
+
+
+
+.block_desc_form {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    font-size: 20px;
+}
+.block_desc_auto {
+    display: flex;
+    align-items: flex-end;
+}
+.block_desc_form__Desc {
+}
+.block_desc_form_about_auto {
+    font-weight: 600;
+}
+.block_desc_form__Parameters {
+    margin-left: 80px;
+}
+
+.ul_parameters li{
+    margin: 10px auto;
+}
+
+.ul_about_auto li:nth-child(1){
+    background: url(./../../Assets/IMG/specific/transmission.png) left no-repeat;
+    background-size: 23px;
+    padding-left: 30px;
+    margin: 10px auto;
+}
+.ul_about_auto li:nth-child(2){
+    background: url(./../../Assets/IMG/specific/boxes.png) left no-repeat;
+    background-size: 23px;
+    padding-left: 30px;
+    margin: 10px auto;
+}
+.ul_about_auto li:nth-child(3){
+    background: url(./../../Assets/IMG/specific/wheel-drive.png) left no-repeat;
+    background-size: 17px;
+    padding-left: 30px;
+    margin: 10px auto;
+}
+.ul_about_auto li:nth-child(4){
+    background: url(./../../Assets/IMG/specific/power.png) left no-repeat;
+    background-size: 23px;
+    padding-left: 30px;
+    margin: 10px auto;
+}
+.ul_about_auto li:nth-child(5){
+    background: url(./../../Assets/IMG/specific/drop.png) left no-repeat;
+    background-size: 23px;
+    padding-left: 30px;
+    margin: 10px auto;
+}
+.ul_about_auto li:nth-child(6){
+    background: url(./../../Assets/IMG/specific/engine.png) left no-repeat;
+    background-size: 23px;
+    padding-left: 30px;
+    margin: 10px auto;
+}
+
+
+.block_rent_form {
+    flex-wrap: wrap;
+    width: 410px;
+}
+
+.block_rent_form input
+{
+    font-size: 20px;
+    margin: 15px auto;
+    border-radius: 8px;
+    border: 2px solid grey;
+    outline: none;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+    transition: .5s;
+}
+
+.block_rent_form input:focus{
+    border: 2px solid #26CBFF;
+    background-color: black;
+    color: #26CBFF;
+    box-shadow: 0 3px 4px rgb(0, 72, 255);
+
+}
+
+.DataRent{
+    width: 190px;
+    height: 40px;
+    text-align: center;
+}
+.DataRent:first-child{
+    margin-right: 24px;
+}
+
+.mileage, .insurance{
+    width: 404px;
+    height: 40px;
+}
+
+.title_price{
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_price_itog{
+    margin-right: 7px;
+}
+
+.title_price_itog::after{
+    content: " сом";
+}
+
+.btn_calc_rent{
+    width: 404px;
+    height: 40px;
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    background: #26CBFF;
+    border: none;
+    margin: 20px auto;
+    cursor: pointer;
+    position: relative;
+    transition: .5s;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn_calc_rent:hover{
+    background-color: #37ff80;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+
+}
