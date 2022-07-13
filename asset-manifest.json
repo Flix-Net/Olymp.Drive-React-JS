@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Olymp.Drive-React-JS/static/css/main.0078e31d.css",
+    "main.js": "/Olymp.Drive-React-JS/static/js/main.ca1b8790.js",
+    "static/media/New_YorkBG.mp4": "/Olymp.Drive-React-JS/static/media/New_YorkBG.f782643015f796bb2f57.mp4",
+    "static/media/forest.mp4": "/Olymp.Drive-React-JS/static/media/forest.e473d617f4df7a74080e.mp4",
+    "static/media/logo.png": "/Olymp.Drive-React-JS/static/media/logo.f3b77838c872f8dd4b1d.png",
+    "static/media/inner.PNG": "/Olymp.Drive-React-JS/static/media/inner.f7b3dcf5eaa2ec45c824.PNG",
+    "static/media/front.PNG": "/Olymp.Drive-React-JS/static/media/front.5ee11e807e406c0f7ab9.PNG",
+    "static/media/back.PNG": "/Olymp.Drive-React-JS/static/media/back.58ebf1bbae82558432c2.PNG",
+    "static/media/photo_doc.jpg": "/Olymp.Drive-React-JS/static/media/photo_doc.736f29748bdc4736b7fd.jpg",
+    "static/media/audi.png": "/Olymp.Drive-React-JS/static/media/audi.441001b42338469abc8f.png",
+    "static/media/bgForPopap.jpg": "/Olymp.Drive-React-JS/static/media/bgForPopap.52c1269531df89159e50.jpg",
+    "static/media/phone.png": "/Olymp.Drive-React-JS/static/media/phone.38e174c7c855ed33d2a3.png",
+    "static/media/mercedes.png": "/Olymp.Drive-React-JS/static/media/mercedes.7193c357d4f450a07bde.png",
+    "static/media/photo_driveDoc.jpg": "/Olymp.Drive-React-JS/static/media/photo_driveDoc.6521a1118d8e3ed8c0b1.jpg",
+    "static/media/wheel-drive.png": "/Olymp.Drive-React-JS/static/media/wheel-drive.d1f9211c75bc3c9d85ce.png",
+    "static/media/user.png": "/Olymp.Drive-React-JS/static/media/user.37777f8f7fecd6f3159f.png",
+    "static/media/dispatcher.png": "/Olymp.Drive-React-JS/static/media/dispatcher.c749edde9879cee18ae4.png",
+    "static/media/btn1.png": "/Olymp.Drive-React-JS/static/media/btn1.5717e46a3ac3321aa4d1.png",
+    "static/media/btnReport.png": "/Olymp.Drive-React-JS/static/media/btnReport.d2cf989a08d8f52d134f.png",
+    "static/media/btn2.png": "/Olymp.Drive-React-JS/static/media/btn2.e075c406b07934bf438d.png",
+    "index.html": "/Olymp.Drive-React-JS/index.html",
+    "main.0078e31d.css.map": "/Olymp.Drive-React-JS/static/css/main.0078e31d.css.map",
+    "main.ca1b8790.js.map": "/Olymp.Drive-React-JS/static/js/main.ca1b8790.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0078e31d.css",
+    "static/js/main.ca1b8790.js"
+  ]
+}
